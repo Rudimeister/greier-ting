@@ -1,0 +1,21 @@
+section    {
+    --fargen-min: brown;
+}
+
+section {
+    background-color: var(--fargen-min);
+}
+
+:root {
+    --nyfarge: orange;
+}
+
+body {
+    color: var(--nyfarge);
+}
+
+@property --logo-color {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #c0ffee;
+}
